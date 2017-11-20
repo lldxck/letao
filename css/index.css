@@ -1,0 +1,323 @@
+/*
+* @Author: PC
+* @Date:   2017-11-18 19:16:29
+* @Last Modified by:   PC
+* @Last Modified time: 2017-11-19 12:30:48
+*/
+
+/* 最外边大盒子样式 */
+.full_page{
+	width: 100%;
+	margin: 0 auto;
+}
+/* 顶部导航 */
+.full_page .nav{
+	width: 100%;
+	height: 44px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #006699;
+}
+/* 导航标题 */
+.nav .nav_title{
+	width: 100%;
+	height: 44px;
+}
+.nav .nav_title h3{
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+}
+/* 导航搜索 */
+
+.full_page .search{
+	width: 40px;
+	height: 44px;
+}
+.full_page .search a{
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 11px;
+	right: 10px;
+	background-position: 0 0;
+	background-image: url("../images/search.png");
+}
+
+/* 轮播图 */
+.banner{
+	margin-top: 40px;
+	width: 100%;
+	height: 100%;
+
+}
+.banner img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+/* 产品 */
+.product{
+	width: 100%;
+	height: 100%;
+	padding-right: 10px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.product ul{
+	width: 100%;
+	height: 100%;
+	/* display: flex;
+	flex-wrap: wrap; */
+	
+
+}
+.product li{
+	float: left;
+	/* flex: 1; */
+	width: 33.333%;
+	height: 100%;
+
+}
+.product a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.product img{
+	width: 100%;
+	height: 100%;
+}
+.line{
+	width: 100%;
+	height: 1px;
+	margin-top: 15px;
+	background-color: #cccccc;
+}
+.sale{
+	width: 100%;
+/* 	height: 100%; */
+	padding-right: 10px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.sale_left{
+	width: 66.66%;
+	height: 100%;
+	float: left;
+
+}
+.sale_left ul{
+	width: 100%;
+	height: 100%;
+
+}
+.sale_left li{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.sale_left a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.sale_left img{
+	width: 100%;
+ }
+ .sale_right{
+ 	width: 33%;
+ 	float: left;
+ }
+ .sale_right a{
+ 	display: block;
+ 	width: 100%;
+ 	height: 100%;
+ }
+ .sale_right img{
+	width: 100%;
+ }
+ /* 品牌专区 */
+.brand{
+	width: 100%;
+	height: 100%;
+	padding-right: 10px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-top: 4px;
+}
+.brand_title img{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.brand_show{
+	width: 100%;
+	height: 100%;
+}
+
+.brand_show ul{
+	width: 100%;
+	height: 100%;
+}
+.brand_show li{
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+
+.brand_show a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.brand_show img{
+	width: 100%;
+	height: 100%;
+}
+
+/* 运动生活专区 */
+.sport{
+	width: 100%;
+	height: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;	
+}
+.sport_title img{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
+
+
+
+.sport_show{
+	/* width: 100%; */
+	/* padding-right: 10px; */
+	/* padding-left: 10px; */
+	box-sizing: border-box;
+	margin-bottom:60px;
+}
+
+.sport_show ul{
+	width: 100%;
+	height: 100%;
+}
+.sport_show li{
+	width: 48%;
+	height: 100%;
+	float: left;
+	box-shadow: 1px 1px 5px #ccc;
+	/* padding: 5px; */
+	box-sizing: border-box;
+	margin-right: 13px;
+	margin-bottom: 10px;
+
+}
+.sport_show li:nth-child(even){
+	margin-right: 0;
+}
+.sport_show li img{
+	width: 100%;
+	height: 100%;
+
+}
+.sport_show li h3{
+	font-size: 14px;
+	color: #8f8f94;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.sport_show li p{
+	height: 35px;
+	line-height: 35px;
+	font-size: 13px;
+	text-align: center;
+	color:#ff3300;
+}
+.sport_show li p del{
+	color: #cccccc;
+	text-decoration: line-through;
+}
+.sport_show li div{
+	margin-bottom:10px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	padding: 0 20%;
+	box-sizing: border-box;
+	
+
+
+
+}
+.sport_show  div a{
+	width: 100%;
+	background-color: #006699;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	color: #fff;	
+	font-size: 14px;
+	border-radius: 3px;
+
+}
+
+
+
+
+
+/* 底部导航 */
+.footer{
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	z-index: 10;
+
+}
+.footer ul{
+	width: 100px;
+	height: 100%;
+
+}
+.footer li{
+	width: 25%;
+	height: 100%;
+}
+
+.footer ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.footer li{
+	flex: 1;
+	height: 100%;
+}
+.footer a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.footer img{
+	width: auto;
+	height: 44px;
+}
+
+
